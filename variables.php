@@ -13,3 +13,5 @@ echo $nombre;
 const apellido = "Dominguez";
 
 define("deportes", array("tenis", "futbol", "baloncesto"));
+
+echo deportes[2];
