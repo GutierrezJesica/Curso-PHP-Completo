@@ -70,4 +70,16 @@ echo "Mi mascota es un: " .$animal;
 
 echo "Mi mascota es un: $animal y tengo $objeto"; // la interpolación no se púede hacer con comillas simples
 
+# OPERADORES ARITMÉTICOS
 
+$NUMERO_1 = 10;
+$NUMERO_2 = 5;
+
+echo $NUMERO_1+$NUMERO_2;
+echo $NUMERO_1-$NUMERO_2;
+echo $NUMERO_1*$NUMERO_2;
+echo $NUMERO_1/$NUMERO_2;
+
+$result = $NUMERO_1*$NUMERO_2-10;
+
+echo $result;
