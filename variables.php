@@ -52,3 +52,22 @@ echo $tutor_2["pais"];
 echo count($estudiantes);
 
 echo count($tutor_2, COUNT_RECURSIVE); // cuenta de manera recursiva
+
+# CONCATENACIÓN DE VARIABLES
+
+$animal = "perro";
+$objeto = "llaves";
+
+echo $animal.$objeto;
+
+$resultados = $objeto.$animal; // concatenación de variables en una nueva variable
+
+echo $resultados;
+
+echo "Mi mascota es un: " .$animal;
+
+# INTERPOLACIÓN DE VARIABLES
+
+echo "Mi mascota es un: $animal y tengo $objeto"; // la interpolación no se púede hacer con comillas simples
+
+
