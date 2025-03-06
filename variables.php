@@ -83,3 +83,67 @@ echo $NUMERO_1/$NUMERO_2;
 $result = $NUMERO_1*$NUMERO_2-10;
 
 echo $result;
+
+# OPERADORES DE ASIGNACIÓN
+
+$num = 5; // = de asignación
+
+$num += 5; // += de incremento
+
+$num -= 5; // -= de decremento
+
+$num *= 5; // *= de multiplicación
+
+$num /= 5; // /= de división
+
+$text = "holas ";
+$text .= "y chau"; // .= de concatenación
+
+# ASIGNACIÓN POR REFERENCIA
+
+$text = "hola";
+
+$text_2 = $text;
+
+$text_3 = &$text; // & de referencia
+
+echo $text_3;
+
+# OPERADORES DE COMPARACIÓN
+
+var_dump(1 == 1); // == de igualdad
+
+var_dump(1 === 1); // === de identidad
+
+var_dump(1 != 1); // != de desigualdad
+
+var_dump(1 !== 1); // !== de no identidad
+
+var_dump(1 > 1); // > de mayor que
+
+var_dump(1 < 1); // < de menor que
+
+var_dump(1 >= 1); // >= de mayor o igual que
+
+var_dump(1 <= 1); // <= de menor o igual que
+
+var_dump(1 <> 1); // <> de diferencia
+
+# OPERADORES LÓGICOS
+
+var_dump(1 && 1); // && de y
+
+var_dump(1 || 1); // || de o
+
+var_dump(!1); // ! de negación (que no)
+
+# OPERADORES DE INCREMENTO Y DECREMENTO
+
+++$num; // ++ de pre-incremento
+$num++; // ++ de post-incremento
+
+--$num; // -- de pre-decremento
+$num--; // -- de post-decremento
+
+
+
