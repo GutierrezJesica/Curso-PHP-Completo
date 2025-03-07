@@ -179,7 +179,7 @@ while($contador <= 10) {
 
 // ----- DO-WHILE
 
-$contador = 20;
+/* $contador = 20;
 
 do {
     echo $contador, "<br>";
@@ -194,4 +194,25 @@ do {
     echo $contador_2, "<br>";
     $contador_2++;
 }
-while($contador_2 <= 20);
+while($contador_2 <= 20); */
+
+// ----- FOR
+
+/* for($i = 1; $i <= 10; $i++) {
+    echo $i, "<br>";
+}
+
+for($i = 10; $i >= 1; $i--) {
+    echo $i, "<br>";
+}
+
+$numero = 7;
+
+for($i = 1; $i <= 10; $i++) {
+    echo $numero, " x ", $i, " = ", $i * $numero, "<br>";
+}
+
+for($i = 10; $i >= 1; $i--) {
+    echo $numero, " x ", $i, " = ", $i * $numero, "<br>";
+} */
+
