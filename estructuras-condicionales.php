@@ -123,7 +123,7 @@ switch($dia) {
         break;
 } */
 
-//--------------------------------------- MATCH
+//---------------------------------------------------------------- MATCH
 
 /* $a = 7;
 
@@ -151,7 +151,7 @@ $resultado = match(true) {
 
 echo $resultado; */
 
-//--------------------------------------- ESTRUCTURAS REPETITIVAS (CICLOS/BUCLES/LOOPS)
+//-------------------------------- ESTRUCTURAS REPETITIVAS (CICLOS/BUCLES/LOOPS)
 
 // ----- WHILE
 
@@ -177,7 +177,7 @@ while($contador <= 10) {
     $contador++;
 } */
 
-// ----- DO-WHILE
+// ----------------------------------------------------------------- DO-WHILE
 
 /* $contador = 20;
 
@@ -216,3 +216,38 @@ for($i = 10; $i >= 1; $i--) {
     echo $numero, " x ", $i, " = ", $i * $numero, "<br>";
 } */
 
+// ----------------------------------------------------------- FOREACH
+
+/* $laptop = ["Lenovo", "Asus", "Macbook", "Dell"];
+
+$frutas = [
+    "Fresas" => 100,
+    "Manzanas" => 200,
+    "Bananas" => 300
+];
+
+foreach($laptop as $valor) { // Muestra los valores de un array
+    echo $valor, "<br>";
+}
+
+foreach($frutas as $fruta => $cantidad) { // Muestra la clave y valor de un array
+    echo $fruta, ": ", $cantidad, "<br>";
+}
+
+foreach($frutas as $fruta => $cantidad) { // Muestra el valor y la clave de un array
+    echo "Hay ".$cantidad ." de: ".$fruta, "<br>";
+} */
+
+// ---------------------------------------- ARRAY ANIDADO EN OTRO ARRAY
+// ---------------------------------------- TRABAJANDO COMO SI FUERA UNA BASE DE DATOS
+
+    $colores = [
+        ["codigo" => "#A00001", "nombre" => "Rojo-Ruby"], // array anidado en otro array
+        ["codigo" => "#A00002", "nombre" => "Verde-Esmeralda"],
+        ["codigo" => "#A00003", "nombre" => "Azul-Peltre"]
+    ];
+
+foreach($colores as $cod) {
+    echo $cod["codigo"]. "<br>";
+    echo $cod["nombre"]. "<br>";
+}
