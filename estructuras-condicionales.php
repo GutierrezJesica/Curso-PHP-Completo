@@ -241,7 +241,7 @@ foreach($frutas as $fruta => $cantidad) { // Muestra el valor y la clave de un a
 // ---------------------------------------- ARRAY ANIDADO EN OTRO ARRAY
 // ---------------------------------------- TRABAJANDO COMO SI FUERA UNA BASE DE DATOS
 
-    $colores = [
+/*     $colores = [
         ["codigo" => "#A00001", "nombre" => "Rojo-Ruby"], // array anidado en otro array
         ["codigo" => "#A00002", "nombre" => "Verde-Esmeralda"],
         ["codigo" => "#A00003", "nombre" => "Azul-Peltre"]
@@ -250,4 +250,33 @@ foreach($frutas as $fruta => $cantidad) { // Muestra el valor y la clave de un a
 foreach($colores as $cod) {
     echo $cod["codigo"]. "<br>";
     echo $cod["nombre"]. "<br>";
-}
+} */
+
+// ---------------------------------------- ROMPER CICLO CON BREAK
+
+/* $contador = 1;
+
+while($contador <= 30) {
+    echo $contador."<br>";
+    if($contador == 15) {
+       break;
+    }
+        $contador++;
+    } */
+
+// ---------------------------------------- CONTINUAR CICLO CON CONTINUE
+
+/* for($i=1; $i<=10; $i++) {
+    if($i == 5) {
+        continue; // hace que se salte el 5 y muestre el resto de datos
+    }
+    echo $i."<br>";
+} */
+
+// ---------------------------------------- INCLUDE Y REQUIRE
+
+//INCLUDE inserta en el código el contenido de un archivo externo (el script se seguira ejecutando)
+//REQUIRE inserta en el código el contenido de un archivo externo (no se sigue ejecutando ante un error fatal)
+
+require "variables.php";
+include "variables.php";
