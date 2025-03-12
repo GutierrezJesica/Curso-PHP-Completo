@@ -16,6 +16,8 @@
         echo $cod["codigo"]. "<br>";
         echo $cod["nombre"]. "<br>";
     }
+    include "funciones.php";
+    echo "El promedio es: ".promedio_alumno(2, 6, 8);
     ?>
 </body>
 </html>
