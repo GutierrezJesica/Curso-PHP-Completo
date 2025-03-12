@@ -48,4 +48,17 @@ $fecha_1 = "2021/11/29";
 $fecha_2 = "2021-11-30";
 $numeros = "Uno Dos Tres Cuatro Cinco Seis";
 
+$array_fecha = explode("/", $fecha_1); // explode(delimitador, string, limitador) hace que se pueda agarrar un dato de un string como si fuera un array
+    echo $array_fecha[1];
+echo "<br>";
 
+$array_fecha2 = explode("-", $fecha_2);
+    echo $array_fecha2[2];
+echo "<br>";
+
+$array_numeros = explode(" ", $numeros, 3);
+    echo $array_numeros[2];
+
+// delimitador = por lo que se separa el string... ejem: / - " "
+// string = la cadena que queremos separar
+// limitador = en cuantas partes dividis un string
