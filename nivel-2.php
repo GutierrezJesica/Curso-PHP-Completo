@@ -25,4 +25,11 @@ date_default_timezone_set("America/Argentina/Buenos_Aires"); // cambia la zona h
 $dia_actual = date("l");
 $fecha_actual = date("d-m-Y");
 
-echo $dia_actual." ".$fecha_actual;
+echo $dia_actual." ".$fecha_actual. "<br>";
+
+# ------------------------------- INSCRIPTADA CONTRASEÑA
+
+$clave = "HannieSalvaje123";
+
+echo password_hash($clave, PASSWORD_DEFAULT);
+
