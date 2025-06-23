@@ -24,7 +24,12 @@
 
         <br>
 
-        
+        <label for="materia">Materia</label>
+        <select name="materia" id="materia">
+            <option value="Desarrollo Web">Desarrollo Web</option>
+            <option value="Programación">Programación</option>
+            <option value="Base de Datos">Base de Datos</option>
+        </select>
 
     </form>
 </body>
