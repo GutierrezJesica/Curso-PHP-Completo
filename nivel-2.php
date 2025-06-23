@@ -27,7 +27,7 @@ $fecha_actual = date("d-m-Y");
 
 echo $dia_actual." ".$fecha_actual. "<br>";
 
-# ------------------------------- INSCRIPTADA CONTRASEÑA
+# ------------------------------- INSCRIPTACIÓN DE CONTRASEÑA
 
 $clave = "HannieSalvaje123";
 
@@ -40,3 +40,7 @@ if(password_verify($clave_2, $clave_procesada)) {
 }else{
     echo "Las claves no coinciden";
 }
+
+# ------------------------------- ENVIAR FORMULARIOS CON GET Y POST
+
+
