@@ -23,6 +23,7 @@
         <input type="text" name="apellido" id="apellido">
 
         <br>
+        <br>
 
         <label for="materia">Materia</label>
         <select name="materia" id="materia">
@@ -42,6 +43,10 @@
 <?php
 # ------------------------------- FORMULARIOS CON OPCIÓN MULTIPLE
 ?>
+
+<br>
+<br>
+<br>
 
 <!DOCTYPE html>
 <html lang="es">
