@@ -21,3 +21,14 @@ echo $apellido;
 echo "<br>";
 $materia = $_GET["materia"];
 echo $materia;
+
+# OPCIONES MULTIPLES
+
+$materias = $_POST["materias"];
+echo $materias[0];
+echo "<br>";
+echo $materias[1];
+echo "<br>";
+echo $materias[2];
+echo "<br>";
+echo $materias[3];
