@@ -1,7 +1,23 @@
 <?php
 
-echo $_POST["nombre"];
+#POST --> la informacion se envia al servidor y quedan ocultos
+
+$nombre=$_POST["nombre"];
+echo $nombre;
 echo "<br>";
-echo $_POST["apellido"];
+$apellido = $_POST["apellido"];
+echo $apellido;
 echo "<br>";
-echo $_POST["materia"];
+$materia = $_POST["materia"];
+echo $materia;
+
+# GET --> la informacion se envia al servidor y se muestra en la url
+
+$nombre=$_GET["nombre"];
+echo $nombre;
+echo "<br>";
+$apellido = $_GET["apellido"];
+echo $apellido;
+echo "<br>";
+$materia = $_GET["materia"];
+echo $materia;
