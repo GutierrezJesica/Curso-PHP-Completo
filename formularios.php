@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form action="datos-form.php" method="POST">
         <div>
             <label for="nombre">Nombre</label>
             <input type="text" name="nombre" id="nombre">
@@ -30,6 +30,10 @@
             <option value="Programación">Programación</option>
             <option value="Base de Datos">Base de Datos</option>
         </select>
+
+        <br>
+
+        <button type="submit">Enviar</button>
 
     </form>
 </body>
