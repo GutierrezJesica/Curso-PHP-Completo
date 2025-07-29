@@ -44,3 +44,11 @@ if(password_verify($clave_2, $clave_procesada)) {
 # ------------------------------- ENVIAR FORMULARIOS CON GET Y POST
 
 
+
+
+
+
+
+
+
+# -------------------------------- COOKIES / SESIONES
