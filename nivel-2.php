@@ -43,6 +43,8 @@ if(password_verify($clave_2, $clave_procesada)) {
 
 # ------------------------------- ENVIAR FORMULARIOS CON GET Y POST
 
+# ------------------------------- SABER si una VARIABLE esta VACIA o DEFINIDA con isset() | empty()
+
 
 
 
