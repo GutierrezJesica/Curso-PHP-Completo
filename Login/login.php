@@ -8,7 +8,7 @@ if($_POST['usuario']=="Carlos" && $_POST['clave']=="1234") {
     $_SESSION["Apellido"]="Alfaro";
     $_SESSION["Pais"]="El Salvador";
 
-    echo "Sesion iniciada";
+    header("Location: contador.php");
 }else{
     echo "Datos incorrectos";
 }
