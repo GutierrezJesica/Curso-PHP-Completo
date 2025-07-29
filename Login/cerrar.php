@@ -4,4 +4,8 @@
 
     session_destroy();
 
-    echo "<script>window.location.href='index.php';</script>";
+     if(headers_sent()){
+        echo "<script>window.location.href='index.php';</script>";
+    }else {
+        header("Location: index.php");
+    }

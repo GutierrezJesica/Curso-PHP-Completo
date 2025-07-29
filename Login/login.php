@@ -8,7 +8,11 @@ if($_POST['usuario']=="Carlos" && $_POST['clave']=="1234") {
     $_SESSION["Apellido"]="Alfaro";
     $_SESSION["Pais"]="El Salvador";
 
-    header("Location: contador.php");
+    if(headers_sent()){
+        echo "<script>window.location.href='contador.php';</script>";
+    }else {
+        header("Location: contador.php");
+    }
 }else{
     echo "Datos incorrectos";
 }
