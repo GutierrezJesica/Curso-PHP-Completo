@@ -5,6 +5,11 @@ if(!preg_match("/^[a-zA-Z]{3,10}$/",$_POST['usuario'])){
     exit();
 }
 
+if(!preg_match("/^[a-zA-Z0-9$#.-_]{4,30}$/",$_POST['clave'])){
+    echo "La clave no coincide con el formato solicitado";
+    exit();
+}
+
 if($_POST['usuario']=="Carlos" && $_POST['clave']=="1234") {
     session_name("LOGIN");
     session_start();

@@ -17,7 +17,7 @@
             <input type="text" name="usuario" pattern="[a-zA-Z]{3,10}" maxlength="10">
             <br>
             <label>Clave</label>
-            <input type="password" name="clave" pattern="[a-zA-Z]{4,30}" maxlength="30">
+            <input type="password" name="clave" pattern="[a-zA-Z0-9$#.-_]{4,30}" maxlength="30">
             <br><br>
             <button type="submit">Login</button>
         </form>
