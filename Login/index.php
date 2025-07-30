@@ -14,10 +14,10 @@
     <body>
         <form action="login.php" method="POST">
             <label>Usuario</label>
-            <input type="text" name="usuario">
+            <input type="text" name="usuario" pattern="[a-zA-Z]{3,10}" maxlength="10">
             <br>
             <label>Clave</label>
-            <input type="text" name="clave">
+            <input type="password" name="clave" pattern="[a-zA-Z]{4,30}" maxlength="30">
             <br><br>
             <button type="submit">Login</button>
         </form>

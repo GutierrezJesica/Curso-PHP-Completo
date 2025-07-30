@@ -1,5 +1,10 @@
 <?php
 
+if(!preg_match("/^[a-zA-Z]{3,10}$/",$_POST['usuario'])){
+    echo "El usuario no coincide con el formato solicitado";
+    exit();
+}
+
 if($_POST['usuario']=="Carlos" && $_POST['clave']=="1234") {
     session_name("LOGIN");
     session_start();
