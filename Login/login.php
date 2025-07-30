@@ -1,6 +1,6 @@
 <?php
 
-if(!preg_match("/^[a-zA-Z]{3,10}$/",$_POST['usuario'])){
+if(!preg_match("/^[a-zA-ZáéíóúÁÉÍÓÚñÑ]{3,10}$/",$_POST['usuario'])){
     echo "El usuario no coincide con el formato solicitado";
     exit();
 }
