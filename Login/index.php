@@ -12,8 +12,6 @@
         <title>Sesiones en PHP</title>
     </head>
     <body>
-        <h1>Iniciar Sesión</h1>
-        <h2>Por favor, ingrese sus datos</h2>
         <form action="login.php" method="POST">
             <label>Usuario</label>
             <input type="text" name="usuario" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ]{3,10}" maxlength="10">
